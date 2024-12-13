@@ -17,7 +17,7 @@ pipeline {
 
     stage('Clone repo') {
       steps {
-	git branch: 'main', url: "https://github.com/fharvell-biz/my-docker-app.git"
+	git branch: 'main', url: "https://github.com/fharvellbiz/my-docker-app.git"
       }
     }
 
